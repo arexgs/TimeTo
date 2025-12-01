@@ -41,11 +41,11 @@ Aplikasi todo list modern berbasis Java dengan integrasi kalender dan fitur bera
   
 ### Skema Warna
 
-* **Terlambat**: Merah (#FFCDD2)
-* **Peringatan**: Kuning (#FFF5B3)
-* **Akan Datang**: Hijau (#C8F2C3)
-* **Selesai**: Abu-abu (#E6E6F0)
-* **Hari Ini**: Cream (#FFF8E1) dengan border oranye
+* **Overdue**: Merah (#FFCDD2)
+* **Warning**: Kuning (#FFF5B3)
+* **Upcoming**: Hijau (#C8F2C3)
+* **Done**: Abu-abu (#E6E6F0)
+* **Today**: Cream (#FFF8E1) dengan border oranye
 
 ### Komponen Utama
 
