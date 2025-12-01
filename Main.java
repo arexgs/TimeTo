@@ -1,5 +1,6 @@
 package TimeTo;
 
+import javax.imageio.ImageIO;
 import javax.swing.*;
 import javax.swing.event.*;
 import javax.swing.table.*;
@@ -158,7 +159,7 @@ public class Main extends JFrame {
         controlsPanel.setOpaque(false);
         controlsPanel.setLayout(new BoxLayout(controlsPanel, BoxLayout.Y_AXIS));
         
-        ImageIcon rawIcon = new ImageIcon("src/TimeTo/assets/logo.png");
+        ImageIcon rawIcon = new ImageIcon(getClass().getResource("assets/logo.png"));
         Image logoScaledImg = rawIcon.getImage().getScaledInstance(48, 72, Image.SCALE_SMOOTH);
         ImageIcon appIcon = new ImageIcon(logoScaledImg);
         JLabel appTitle = new JLabel(appIcon);
@@ -191,8 +192,8 @@ public class Main extends JFrame {
         
         JButton calendarBtn = new JButton();
         try {
-            ImageIcon calendarIcon = new ImageIcon("src/TimeTo/assets/CalendarIcon.jpeg");
-            Image calendarScaledImg = calendarIcon.getImage().getScaledInstance(170, 170, Image.SCALE_SMOOTH);
+            Image calendarIcon = ImageIO.read(getClass().getResource("assets/CalendarIcon.jpeg"));
+            Image calendarScaledImg = calendarIcon.getScaledInstance(170, 170, Image.SCALE_SMOOTH);
             calendarBtn.setIcon(new ImageIcon(calendarScaledImg));
             calendarBtn.setContentAreaFilled(false);
             calendarBtn.setBorderPainted(false);
