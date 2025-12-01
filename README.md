@@ -38,26 +38,7 @@ Aplikasi todo list modern berbasis Java dengan integrasi kalender dan fitur bera
 * **Operasi Massal**: Menghapus semua tugas selesai dalam satu klik.
 * **Date Picker**: Pemilihan tanggal yang mudah.
 * **Layout Responsif**: Navigasi sidebar dengan daftar tugas yang dapat dicari.
-
-## Struktur Proyek
-
-```
-todolist/
-├── Main.java                    # Jendela utama aplikasi
-├── CalendarPanel.java           # Komponen tampilan kalender
-├── EditorDialog.java            # Dialog pembuatan/pengeditan tugas
-├── TableRenderer.java           # Renderer tabel kustom
-├── SnackbarNotification.java    # Notifikasi gaya toast
-└── TaskData.java                # Model data tugas
-```
-
-## Detail Teknis
-
-### Kebutuhan Sistem
-
-* Java 8 atau lebih baru
-* Swing GUI (sudah termasuk dalam JDK)
-
+  
 ### Skema Warna
 
 * **Terlambat**: Merah (#FFCDD2)
@@ -92,15 +73,6 @@ todolist/
 * Pewarnaan baris
 * Strikethrough untuk tugas selesai
 * Dukungan HTML dalam sel
-
-## Cara Menggunakan
-
-### Menjalankan Aplikasi
-
-```bash
-javac todolist/*.java
-java todolist.Main
-```
 
 ### Operasi Dasar
 
