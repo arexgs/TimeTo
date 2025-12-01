@@ -4,7 +4,7 @@ Aplikasi todo list modern berbasis Java dengan integrasi kalender dan fitur bera
 
 ## Fitur Utama
 
-### Fungsionalitas Inti
+### Fungsi Utama
 
 * **Manajemen Tugas**: Membuat, mengedit, dan menghapus tugas dengan judul, deskripsi, dan tenggat waktu.
 * **Pelacakan Status Cerdas**: Indikator visual untuk tingkat urgensi tugas:
